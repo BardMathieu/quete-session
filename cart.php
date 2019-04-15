@@ -13,7 +13,7 @@ redirect();?>
         <div class="col-md-8">
         </div>
         <div class="col-md-4">
-            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-warning">Acheter</button>
         </div>
     </div>
 </section>
