@@ -46,8 +46,6 @@ function panier(){
     if((isset($_POST['submit'])) and (isset($_SESSION['user']))){
         array_push($_SESSION['panier']['name'],$_POST['name']);
         array_push($_SESSION['panier']['srcimg'],$_POST['srcimg']);
-        var_dump($_SESSION['panier']);
-
     }
 }
 function afficheproduit(){
